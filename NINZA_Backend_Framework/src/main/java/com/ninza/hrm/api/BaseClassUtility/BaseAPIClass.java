@@ -1,7 +1,5 @@
 package com.ninza.hrm.api.BaseClassUtility;
 
-import static io.restassured.RestAssured.basic;
-
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
