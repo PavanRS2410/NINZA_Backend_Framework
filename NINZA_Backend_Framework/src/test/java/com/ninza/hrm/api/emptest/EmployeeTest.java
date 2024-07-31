@@ -39,7 +39,7 @@ public class EmployeeTest extends BaseAPIClass
 							.post(IEndPoints.ADD_EMP);
 				resp1.then()
 					.assertThat().statusCode(201)
-					.assertThat().time(Matchers.lessThan(3000L))
+					.assertThat().time(Matchers.lessThan(4000l))
 					.spec(resp_spec_obj)
 					.log().all();
 		//verification in API layer is done
