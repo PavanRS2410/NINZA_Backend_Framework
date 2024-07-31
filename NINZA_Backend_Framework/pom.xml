@@ -3,6 +3,9 @@
   <groupId>NINZA_Backend_Framework</groupId>
   <artifactId>NINZA_Backend_Framework</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <properties>
+    <maven.compiler.release>17</maven.compiler.release>
+  </properties>
    <dependencies>
 	  <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
 <dependency>
