@@ -5,8 +5,8 @@
     <classes>
       <class name="com.ninza.hrm.api.projecttest.ProjectTest">
         <methods>
-          <include name="configBS"/>
           <include name="addDuplicateProjectTest"/>
+          <include name="configBS"/>
           <include name="configAS"/>
           <include name="addSingleProjectWithCreatedTest"/>
         </methods>
